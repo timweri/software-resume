@@ -94,7 +94,8 @@
 %----------HEADING-----------------
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
   \textbf{\href{http://timweri.me/}{\Large Thanh Nguyen}} & Email : \href{mailto:thanh@timweri.me}{thanh@timweri.me}\\
-  \href{http://timweri.me/}{http://www.timweri.me} & \\
+  % \href{http://timweri.me/}{http://www.timweri.me} & \\
+  {Software Engineer} & \\
 \end{tabular*}
 
 
@@ -103,7 +104,7 @@
   \resumeSubHeadingListStart
     \resumeSubheading
       {University of Waterloo}{Waterloo, ON, Canada}
-      {Bachelor of Computer Science; GPA: 3.9}{Sep 2017 -- Apr 2022}
+      {Bachelor of Computer Science (Dean's Honour); GPA: 3.9}{Sep 2017 -- Apr 2022}
   \resumeSubHeadingListEnd
 
 
@@ -113,13 +114,13 @@
 
     \resumeSubheading
       {Capital One}{Toronto, ON, Canada}
-      {Software Engineer Co-op}{Sep 2021 - Dec 2021}
+      {Software Engineer}{Sep 2021 - Dec 2021, Jun 2022 - Current}
       \resumeItemListStart
         \resumeItem{Quick Check}
-          {Quick Check is an AWS Serverless application to assess the credit card applicant's eligibility using a soft credit check. Worked on }
+          {Quick Check is an AWS Serverless application to assess credit card applicants' eligibility using soft credit checks. }
         \resumeItem{One Email}
-          {One Email is an AWS Serverless application to send automated email to customers based on messages broadcasted on Kafka streams.
-          One Email allows teams to replace different but highly similar email infrastructures with one unified email infrastructure through pure YAML configurations.
+          {One Email is an AWS Serverless application to send automated emails to customers, triggered by Kafka streams.
+          One Email allows teams to replace near-identical email infrastructures with one unified email infrastructure through pure YAML configurations.
           Built a proof of concept One Email from scratch. }
       \resumeItemListEnd
       
@@ -134,47 +135,42 @@
 %-------------------------------------------
 
     \resumeSubheading
-      {Coursera}{Mountain View, CA}
-      {Senior Software Engineer}{Jan 2014 - Oct 2016}
+      {Huawei}{Markham, ON, Canada}
+      {Compiler Software Engineer Co-op}{May 2021 - Aug 2021}
       \resumeItemListStart
-        \resumeItem{Notifications}
-          {Service for sending email, push and in-app notifications. Involved in features such as delivery time optimization, tracking, queuing and A/B testing. Built an internal app to run batch campaigns for marketing etc.}
-        \resumeItem{Nostos}
-          {Bulk data processing and injection service from Hadoop to Cassandra and provides a thin REST layer on top for serving offline computed data online.}
-        \resumeItem{Workflows}
-          {Dataduct an open source workflow framework to create and manage data pipelines leveraging reusables patterns to expedite developer productivity.}
-        \resumeItem{Data Collection}
-          {Designed the internal survey and crowd sourcing platform which allowed for creating various tasks for crowd sourcing or embedding surveys across the Coursera platform.}
-        \resumeItem{Dev Environment}
-          {Analytics environment based on docker and AWS, standardized the python and R dependencies. Wrote the core libraries that are shared by all data scientists.}
-        \resumeItem{Data Warehousing}
-          {Setup, schema design and management of Amazon Redshift. Built an internal app for access to the data using a web interface. Dataduct integration for daily ETL injection into Redshift.}
-        \resumeItem{Recommendations}
-          {Core service for all recommendation systems at Coursera, currently used on the homepage and throughout the content discovery process. Worked on both offline training and online serving.}
-        \resumeItem{Content Discovery}
-          {Improved content discovery by building a new onboarding experience on coursera. Using this to personalize the search and browse experience. Also worked on ranking and indexing improvements.}
-        \resumeItem{Course Dashboards}
-          {Instructor dashboards and learner surveying tools, which helped instructors run their class better by providing data on Assignments and Learner Activity.}
+        \resumeItem{GPU Compiler Optimization}
+          {Optimized a proprietary LLVM-based GPU Compiler: Implemented stack spill to different types of memories to make use of faster memories when possible. 
+          Worked with LLVM intermediate representations in the Analysis and Transform phases.}
       \resumeItemListEnd
 
     \resumeSubheading
-      {Lucena Research}{Atlanta, GA}
-      {Data Scientist}{Summer 2012 and 2013}
+      {Wayfair}{Boston, MA, USA}
+      {Software Engineer Co-op}{Jan 2020 - May 2020}
       \resumeItemListStart
-        \resumeItem{Portfolio Management}
-          {Created models for portfolio hedging,  portfolio optimization and price forecasting. Also creating a strategy backtesting engine used for simulating and backtesting strategies.}
-        \resumeItem{QuantDesk}
-          {Python backend for a web application used by hedge fund managers for portfolio management.}
+        \resumeItem{Monolith Segmentation}
+          {Implemented a codeowner-based CI/CD build filter to improve the experience of configuring CI/CD pipelines for different projects in the monolith. 
+          Removed redundant build jobs by 33\%.
+          Enabled efficient static analyses of projects. }
+        \resumeItem{GCP Autoscale}
+          {Set up GCP compute clusters to autoscale according to CI/CD workload to save cost and to reduce build wait time during peak hours.}
       \resumeItemListEnd
 
     \resumeSubheading
-      {Georgia Institute of Technology}{Atlanta, GA}
-      {Research and Teaching Assistant}{Jan 2012 - Dec 2013}
+      {BlackBerry}{Mississauga, ON, Canada}
+      {Student Software Developer}{May 2019 - Aug 2019}
       \resumeItemListStart
-        \resumeItem{Research Assistant - Machine Learning}
-          {Research on machine learning for portfolio hedging and replication algorithms. Modeling low-risk \& continuous-return strategies. Developed the python library QSTK.}
-        \resumeItem{Teaching Assistant - Computational Investing}
-          {The online course on Coursera, had more than 100,000 students enrolled. It was featured on the 11 Alive News and the Atlanta Journal Constitution. Involved in creating assignment, exams and conducting recitation sessions. Also taught the on-campus version of the course.}
+        \resumeItem{APK Threat Model}
+          {Implemented a new feature in the SDK to allow developers to scan APKs for threat using an internal Machine Learning Model.
+          Optimized scanning jobs with caching.
+          Built a proof-of-concept Android application to demo the APK scanning feature. }
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Trend Micro}{Ottawa, ON, Canada}
+      {Software Engineer Co-op}{Sep 2020 - Dec 2020}
+      \resumeItemListStart
+        \resumeItem{Single Sign-On}
+          {AWS Serverless API to manage Single Sign-On tokens.}
       \resumeItemListEnd
 
   \resumeSubHeadingListEnd
@@ -183,14 +179,17 @@
 %-----------PROJECTS-----------------
 \section{Projects}
   \resumeSubHeadingListStart
-    \resumeSubItem{QuantSoftware Toolkit}
-      {Open source python library for financial data analysis and machine learning for finance.}
-    \resumeSubItem{Github Visualization}
-      {Data Visualization of Git Log data using D3 to analyze project trends over time.}
-    \resumeSubItem{Recommendation System}
-      {Music and Movie recommender systems using collaborative filtering on public datasets.}
-    \resumeSubItem{Mac Setup}
-      {Book that gives step by step instructions on setting up developer environment on Mac OS.}
+    \resumeSubItem{Solidity (Open-source)}
+      {Optimized the official compiler for Solidity, the popular Ethereum smart contract programming language.
+      Improved error reporting and fixed compiler crashes. }
+    \resumeSubItem{Microkernel}
+      {A multi-threaded microkernel for a single core ARM chip.
+      The microkernel syscalls, message passing, await event and such without any external libraries. }
+    \resumeSubItem{Joos Compiler}
+      {A compiler for simplified Java built from scratch.
+      The compiler supports inheritance, function overloading and external module import. }
+    \resumeSubItem{Volumetric Reconstruction}
+      {Implemented a blend of two space-carving algorithms to generate an interactive 3D cloud-point object from 2D images of an object from various angles. }
   \resumeSubHeadingListEnd
 
 %
