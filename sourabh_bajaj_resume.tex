@@ -98,6 +98,14 @@
   {Software Engineer} & \\
 \end{tabular*}
 
+\bigskip
+\textbf{Skills}
+\vspace{-5pt}
+\begin{itemize}
+  \item Proficient: C++, C, Python, AWS\vspace{-5pt}
+  \item Familiar: NodeJS, Golang
+\end{itemize}
+\vspace{-15pt}
 
 %-----------EDUCATION-----------------
 \section{Education}
@@ -117,9 +125,10 @@
       {Software Engineer}{Sep 2021 - Dec 2021, Jun 2022 - Current}
       \resumeItemListStart
         \resumeItem{Quick Check}
-          {Quick Check is an AWS Serverless application to assess credit card applicants' eligibility using soft credit checks. }
+          {Quick Check is an \textbf{AWS} Serverless application to assess credit card applicants' eligibility using soft credit checks. 
+          Implemented new features and improved error reporting using \textbf{Golang}. }
         \resumeItem{One Email}
-          {One Email is an AWS Serverless application to send automated emails to customers, triggered by Kafka streams.
+          {One Email is an \textbf{AWS} Serverless application to send automated emails to customers, triggered by \textbf{Kafka} streams.
           One Email allows teams to replace near-identical email infrastructures with one unified email infrastructure through pure YAML configurations.
           Built a proof of concept One Email from scratch. }
       \resumeItemListEnd
@@ -139,8 +148,8 @@
       {Compiler Software Engineer Co-op}{May 2021 - Aug 2021}
       \resumeItemListStart
         \resumeItem{GPU Compiler Optimization}
-          {Optimized a proprietary LLVM-based GPU Compiler: Implemented stack spill to different types of memories to make use of faster memories when possible. 
-          Worked with LLVM intermediate representations in the Analysis and Transform phases.}
+          {Optimized a proprietary \textbf{LLVM}-based GPU Compiler written in \textbf{C++}: Implemented stack spill to different types of memories to make use of faster memories when possible. 
+          Worked with \textbf{LLVM} intermediate representations in the Analysis and Transform phases.}
       \resumeItemListEnd
 
     \resumeSubheading
@@ -148,21 +157,24 @@
       {Software Engineer Co-op}{Jan 2020 - May 2020}
       \resumeItemListStart
         \resumeItem{Monolith Segmentation}
-          {Implemented a codeowner-based CI/CD build filter to improve the experience of configuring CI/CD pipelines for different projects in the monolith. 
+          {Designed and implemented a codeowner-based CI/CD build filter to improve the experience of configuring CI/CD pipelines for different projects in the monolith. 
           Removed redundant build jobs by 33\%.
           Enabled efficient static analyses of projects. }
         \resumeItem{GCP Autoscale}
-          {Set up GCP compute clusters to autoscale according to CI/CD workload to save cost and to reduce build wait time during peak hours.}
+        {Configured \textbf{GCP} compute clusters using \textbf{Terraform} and custom metric services to autoscale according to CI/CD workload to save cost and to reduce build wait time during peak hours.}
       \resumeItemListEnd
 
     \resumeSubheading
       {BlackBerry}{Mississauga, ON, Canada}
       {Student Software Developer}{May 2019 - Aug 2019}
       \resumeItemListStart
-        \resumeItem{APK Threat Model}
+        \resumeItem{APK Threat Model in SDK}
           {Implemented a new feature in the SDK to allow developers to scan APKs for threat using an internal Machine Learning Model.
           Optimized scanning jobs with caching.
-          Built a proof-of-concept Android application to demo the APK scanning feature. }
+          Designed and built a proof-of-concept \textbf{Android} application to demo the APK scanning feature of the API. }
+        \resumeItem{Threat Model Endpoint}
+          {Designed and implemented a mock internal test API endpoint using \textbf{ExpressJS} for development environments. 
+          This facilitated teams to iterate faster and avoid using the restrictive external production Threat Model API for development. }
       \resumeItemListEnd
 
     \resumeSubheading
@@ -170,7 +182,7 @@
       {Software Engineer Co-op}{Sep 2020 - Dec 2020}
       \resumeItemListStart
         \resumeItem{Single Sign-On}
-          {AWS Serverless API to manage Single Sign-On tokens.}
+          {Maintained \textbf{AWS} Serverless API to manage Single Sign-On tokens.}
       \resumeItemListEnd
 
   \resumeSubHeadingListEnd
@@ -180,7 +192,8 @@
 \section{Projects}
   \resumeSubHeadingListStart
     \resumeSubItem{Solidity (Open-source)}
-      {Optimized the official compiler for Solidity, the popular Ethereum smart contract programming language.
+    {Optimized the official compiler for \textbf{Solidity}, the popular \textbf{Ethereum} smart contract programming language.
+      Improved gas cost by optimizing the generation of \textbf{Yul} intermediate respresentation.
       Improved error reporting and fixed compiler crashes. }
     \resumeSubItem{Microkernel}
       {A multi-threaded microkernel for a single core ARM chip.
