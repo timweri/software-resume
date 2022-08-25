@@ -98,14 +98,14 @@
   {Software Engineer} & \\
 \end{tabular*}
 
-\bigskip
-\textbf{Skills}
-\vspace{-5pt}
-\begin{itemize}
-  \item Proficient: C++, C, Python, AWS\vspace{-5pt}
-  \item Familiar: NodeJS, Golang
-\end{itemize}
-\vspace{-15pt}
+% \bigskip
+% \textbf{Skills}
+% \vspace{-5pt}
+% \begin{itemize}
+%   \item Proficient: C++, C, Python, AWS\vspace{-5pt}
+%   \item Familiar: NodeJS, Golang
+% \end{itemize}
+% \vspace{-15pt}
 
 %-----------EDUCATION-----------------
 \section{Education}
@@ -125,12 +125,12 @@
       {Software Engineer}{Sep 2021 - Dec 2021, Jun 2022 - Current}
       \resumeItemListStart
         \resumeItem{Quick Check}
-          {Quick Check is an \textbf{AWS} Serverless application to assess credit card applicants' eligibility using soft credit checks. 
-          Implemented new features and improved error reporting using \textbf{Golang}. }
+          {Quick Check is an \textbf{AWS} Serverless application, built with \textbf{Golang} and \textbf{React}, to assess credit card applicants' eligibility using soft credit checks.
+          Implemented new API specifications and clearer HTTP errors to minimize customers' frustration when Quick Check fails. }
         \resumeItem{One Email}
-          {One Email is an \textbf{AWS} Serverless application to send automated emails to customers, triggered by \textbf{Kafka} streams.
-          One Email allows teams to replace near-identical email infrastructures with one unified email infrastructure through pure YAML configurations.
-          Built a proof of concept One Email from scratch. }
+          {Designed and built the initial version of One Email.
+          One Email is an \textbf{AWS} Serverless application to send automated emails to customers, triggered by \textbf{Kafka} streams.
+          One Email allows teams to replace near-identical email infrastructures with one unified email infrastructure through pure YAML configurations. }
       \resumeItemListEnd
       
 % --------Multiple Positions Heading------------
@@ -148,7 +148,7 @@
       {Compiler Software Engineer Co-op}{May 2021 - Aug 2021}
       \resumeItemListStart
         \resumeItem{GPU Compiler Optimization}
-          {Optimized a proprietary \textbf{LLVM}-based GPU Compiler written in \textbf{C++}: Implemented stack spill to different types of memories to make use of faster memories when possible. 
+          {Optimized \textbf{LLVM}-based GPU Compiler written in \textbf{C++}: Implemented stack spill to different types of memories to make use of faster types of memories when possible. 
           Worked with \textbf{LLVM} intermediate representations in the Analysis and Transform phases.}
       \resumeItemListEnd
 
@@ -156,9 +156,9 @@
       {Wayfair}{Boston, MA, USA}
       {Software Engineer Co-op}{Jan 2020 - May 2020}
       \resumeItemListStart
-        \resumeItem{Monolith Segmentation}
-          {Designed and implemented a codeowner-based CI/CD build filter to improve the experience of configuring CI/CD pipelines for different projects in the monolith. 
-          Removed redundant build jobs by 33\%.
+        \resumeItem{CI/CD Optimization}
+          {Designed and implemented a CI/CD solution to improve the experience of configuring CI/CD pipelines for different projects in the monolith. Onboarded 15+ teams.
+          Reduced redundant build jobs and reduced total build jobs by 33\%.
           Enabled efficient static analyses of projects. }
         \resumeItem{GCP Autoscale}
         {Configured \textbf{GCP} compute clusters using \textbf{Terraform} and custom metric services to autoscale according to CI/CD workload to save cost and to reduce build wait time during peak hours.}
@@ -168,13 +168,12 @@
       {BlackBerry}{Mississauga, ON, Canada}
       {Student Software Developer}{May 2019 - Aug 2019}
       \resumeItemListStart
-        \resumeItem{APK Threat Model in SDK}
-          {Implemented a new feature in the SDK to allow developers to scan APKs for threat using an internal Machine Learning Model.
-          Optimized scanning jobs with caching.
-          Designed and built a proof-of-concept \textbf{Android} application to demo the APK scanning feature of the API. }
-        \resumeItem{Threat Model Endpoint}
-          {Designed and implemented a mock internal test API endpoint using \textbf{ExpressJS} for development environments. 
-          This facilitated teams to iterate faster and avoid using the restrictive external production Threat Model API for development. }
+        \resumeItem{SDK Development}
+          {Implemented a new feature in the SDK to allow developers to scan APKs for threat using a machine learning model.
+          Designed and built a proof-of-concept \textbf{Android} application to demo the APK scanning feature. }
+        \resumeItem{Development Endpoint}
+          {Designed and implemented an API endpoint using \textbf{ExpressJS} to deploy the APK machine learning model for development environments. 
+          This facilitated teams to iterate faster and avoid using restrictive production endpoints for development. }
       \resumeItemListEnd
 
     \resumeSubheading
@@ -182,7 +181,7 @@
       {Software Engineer Co-op}{Sep 2020 - Dec 2020}
       \resumeItemListStart
         \resumeItem{Single Sign-On}
-          {Maintained \textbf{AWS} Serverless API to manage Single Sign-On tokens.}
+          { Implemented a new API specification to manage AWS Cognito JWT tokens. The API allows clients to reuse one token across multiple applications, avoiding repeated sign-in. }
       \resumeItemListEnd
 
   \resumeSubHeadingListEnd
@@ -191,15 +190,15 @@
 %-----------PROJECTS-----------------
 \section{Projects}
   \resumeSubHeadingListStart
-    \resumeSubItem{Solidity (Open-source)}
+    \resumeSubItem{Solidity (https://github.com/ethereum/solidity)}
     {Optimized the official compiler for \textbf{Solidity}, the popular \textbf{Ethereum} smart contract programming language.
       Improved gas cost by optimizing the generation of \textbf{Yul} intermediate respresentation.
       Improved error reporting and fixed compiler crashes. }
     \resumeSubItem{Microkernel}
       {A multi-threaded microkernel for a single core ARM chip.
-      The microkernel syscalls, message passing, await event and such without any external libraries. }
+      The microkernel supports syscalls, message passing, await event and such without any external libraries. }
     \resumeSubItem{Joos Compiler}
-      {A compiler for simplified Java built from scratch.
+      {A compiler for simplified Java, built from scratch.
       The compiler supports inheritance, function overloading and external module import. }
     \resumeSubItem{Volumetric Reconstruction}
       {Implemented a blend of two space-carving algorithms to generate an interactive 3D cloud-point object from 2D images of an object from various angles. }
